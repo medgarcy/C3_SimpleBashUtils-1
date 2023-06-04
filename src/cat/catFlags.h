@@ -1,5 +1,5 @@
-#ifndef CATFLAG_H
-#define CATFLAG_H
+#ifndef CATFLAGS_H
+#define CATFLAGS_H
 
 void CatSetTable(const char *table[static 256]);
 void CatSetEndl(const char *table[static 256]);

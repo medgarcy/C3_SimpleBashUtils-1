@@ -8,6 +8,12 @@ s21_cat: s21_cat.c
 test: s21_cat
 	bash test.bash
 
+check: 
+	clang-format -style=Google -n *.c *.h
+
+checkdo: 
+	clang-format -style=Google -i *.c *.h
+
 rebuild:
 	make clean
 	make all
